@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛑抱歉，网站已停用</title>
+    <link rel="icon" href="https://hive.forms.usercontent.microsoft/Images/9188040d-6c67-4c5b-b112-36a304b66dad/00000000-0000-0000-0003-bffd409131bf/T0RRH45M4BJGVXSCOEE2GS5JAZ/fe1565ec-02bf-4b26-800f-b6b659adee28" type="image/png">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding: 40px 20px;
+        }
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 720px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .notify-icon {
+            font-size: 70px;
+            margin-bottom: 24px;
+        }
+        .notify-box {
+            width: 100%;
+            border: 1px solid #333842;
+            border-radius: 12px;
+            padding: 32px 28px;
+            background-color: #0f1117;
+        }
+        .notify-text {
+            text-align: center;
+            font-size: 15px;
+            line-height: 1.8;
+            margin-bottom:20px;
+        }
+        .back-home-wrap{
+            text-align:center;
+            margin-bottom:32px;
+        }
+        .back-link{
+            color:#4096ff;
+            font-size:17px;
+            text-decoration:underline;
+        }
+        .dept-date{
+            text-align:right;
+            font-size:13px;
+            color:#bbbbbb;
+            margin-top:12px;
+        }
+        footer{
+            background:#165DFF;
+            color:#fff;
+            text-align:center;
+            padding:15px 16px;
+            margin-top:35px;
+        }
+        footer a{
+            color:#ffffff;
+            text-decoration:none;
+            margin:0 8px;
+        }
+        footer a:hover{
+            text-decoration:underline;
+        }
+        .footer-links{
+            margin-top:10px;
+            font-size:12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="notify-icon">🚫</div>
+        <div class="notify-box">
+            <div class="notify-text">
+                <p>您好，</p>
+                <p>为提升运营效率，根据相关规定，后续红头文件将采用【依申请公开】、【必要时单独展示】的方式呈现，不再统一对外展示、对外提供统一查询服务，故我中心已关停本网站，感谢您一直以来的关注！祝您生活愉快！</p><br>
+                如需办理【依申请公开】服务，请通过邮箱📧联系昆象云科技客户服务中心办理：<a class="back-link" href="mailto:service@kunxy.top">service@kunxy.top</a>
+或<a class="back-link" href="mailto:YongmuTechnology@outlook.com">YongmuTechnology@outlook.com</a>
+            </div>
+            <div class="back-home-wrap">
+                <a class="back-link" href="https://kunxy.top">🔙返回官网</a>
+            </div>
+            <div class="dept-date">
+                昆象云科技发展改革中心、昆象云科技电化教育中心<br>
+                2026年8月20日</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>© 2025‑<span id="currentYear"></span> 昆明昆象云科技有限责任公司 版权所有</div>
+        <div class="footer-links">
+            <a href="https://kunxy.top/">昆象云科技官网</a>｜
+            <a href="https://rule-portal.yongmukeji.top/">昆象云科技规章制度访问指引</a>｜
+            <a href="https://yongmukeji.top/"> 永慕智创软件工作室官网</a>
+        </div>
+    </footer>
+
+<script>
+    document.getElementById('currentYear').innerText = new Date().getFullYear();
+    const now = new Date();
+    document.getElementById('todayDate').innerText = now.getFullYear() + '-' + String(now.getMonth()+1).padStart(2,'0') + '-' + String(now.getDate()).padStart(2,'0');
+</script>
+</body>
+</html>
